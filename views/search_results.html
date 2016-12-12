@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>G's WDI Project 2</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Righteous|Varela" rel="stylesheet">
+</head>
+<body>
+	<!-- Top Navigation Bar  -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      	<ul class="nav navbar-nav">
+      	<li class="active"><a class = "visible-phone" href="index.html">Gisella's Project 2: BikeFinder</a></li>
+        <li><a href="https://trello.com/b/oAq48IA0/wdi-project-2-bikefinder">Trello User Stories & Sprints</a></li>
+        <li><a href="orginal_wireframes.html">Original Wireframes</a></li> 
+        <li><a href="readMe.md">ReadMe</a></li> 
+      </ul>
+ 
+    </div>
+  </div>
+</nav>
+<!-- End of Top Navigation Bar  -->
+
+	<div class="container-fluid">
+
+		<row> <h2><span class = "logofont margin-left">BikeFinder </span></h2></row>
+
+		<!-- Bike Shop Results -->
+		<row>
+			<!-- Box Holding GoogLe Map Image -->
+			<div id = "map-result"  class = "col-md-6"><!-- Google map image would go here -->
+					<div class ="imgwrapper">
+					<img class = "img-responsive" src="../public/images/googlemapsample.png">
+					</div>
+			</div>
+			<!--  End of Box Holding GoogLe Map Image -->
+
+			<!-- Results Box-->
+			<div class = "col-md-6"> 
+				<h4> Check the shops you’d like <span class = "logofont">BikeFinder </span> to contact on your behalf. </h4>	
+
+					<!-- One Result -->
+					<article class="result-box ">  	
+						<form role="form">
+						  <div class="contact-checkbox">
+								<input type="checkbox" id="check[bikeshopID]" name="contact-check[bikeshopID]"> 
+								<label for="contact-check">Contact</label> 
+						  </div>
+							<hr class="dotted">
+							<h3>[bikeshopNAME-ID]</h3> 
+							<p>[bikeshopADDRESS-ID]</p>
+							<p><strong>[bikeshop-ID]Website: <a href= "http://ubikes.com">ubikes.com</a></strong></p>
+							<p><strong>[bikeshop-ID]Phone: (303) 444-4196</strong></p>
+							<!-- Collapsable Hours Info -->
+								      <h5 class="mb-0">
+								        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								         View Hours of Operation 
+								         </a>
+								      </h5>
+								      <br>				
+							    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+							        <table class="hours table">
+							           <tbody>
+							            <tr>
+							              <td> Sunday </td> <td> 12-5</td>
+							            </tr>
+							            <tr>
+							              <td> Monday </td> <td> 10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Tuesday </td> <td> 10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Wednesday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Thursday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Friday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Saturday </td> <td>  10-7</td>
+							            </tr>
+							          </tbody>
+							        </table>
+							     </div>
+							<!-- End of Collapsable Hours Info -->			
+					</article>
+					<!-- End of One Result -->
+					<!-- One Result -->
+					<article class="result-box margin-right">  	
+						<form role="form">
+						  <div class="contact-checkbox">
+								<input type="checkbox" id="check[bikeshopID]" name="contact-check[bikeshopID]"> 
+								<label for="contact-check">Contact</label> 
+						  </div>
+							<hr class="dotted">
+							<h3>[bikeshopNAME-ID]</h3> 
+							<p>[bikeshopADDRESS-ID]</p>
+							<p><strong>[bikeshop-ID]Website: <a href= "http://ubikes.com">ubikes.com</a></strong></p>
+							<p><strong>[bikeshop-ID]Phone: (303) 444-4196</strong></p>
+							<!-- Collapsable Hours Info -->
+								      <h5 class="mb-0">
+								        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								         View Hours of Operation 
+								         </a>
+								      </h5>
+								      <br>				
+							    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+							        <table class="hours table">
+							           <tbody>
+							            <tr>
+							              <td> Sunday </td> <td> 12-5</td>
+							            </tr>
+							            <tr>
+							              <td> Monday </td> <td> 10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Tuesday </td> <td> 10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Wednesday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Thursday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Friday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Saturday </td> <td>  10-7</td>
+							            </tr>
+							          </tbody>
+							        </table>
+							     </div>
+							<!-- End of Collapsable Hours Info -->			
+					</article>
+					<!-- End of One Result -->
+					<!-- One Result -->
+					<article class="result-box margin-right">  	
+						<form role="form">
+						  <div class="contact-checkbox">
+								<input type="checkbox" id="check[bikeshopID]" name="contact-check[bikeshopID]"> 
+								<label for="contact-check">Contact</label> 
+						  </div>
+							<hr class="dotted">
+							<h3>[bikeshopNAME-ID]</h3> 
+							<p>[bikeshopADDRESS-ID]</p>
+							<p><strong>[bikeshop-ID]Website: <a href= "http://ubikes.com">ubikes.com</a></strong></p>
+							<p><strong>[bikeshop-ID]Phone: (303) 444-4196</strong></p>
+							<!-- Collapsable Hours Info -->
+								      <h5 class="mb-0">
+								        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								         View Hours of Operation 
+								         </a>
+								      </h5>
+								      <br>				
+							    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+							        <table class="hours table">
+							           <tbody>
+							            <tr>
+							              <td> Sunday </td> <td> 12-5</td>
+							            </tr>
+							            <tr>
+							              <td> Monday </td> <td> 10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Tuesday </td> <td> 10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Wednesday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Thursday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Friday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Saturday </td> <td>  10-7</td>
+							            </tr>
+							          </tbody>
+							        </table>
+							     </div>
+							<!-- End of Collapsable Hours Info -->			
+					</article>
+					<!-- End of One Result -->
+					<!-- One Result -->
+					<article class="result-box margin-right">  	
+						<form role="form">
+						  <div class="contact-checkbox">
+								<input type="checkbox" id="check[bikeshopID]" name="contact-check[bikeshopID]"> 
+								<label for="contact-check">Contact</label> 
+						  </div>
+							<hr class="dotted">
+							<h3>[bikeshopNAME-ID]</h3> 
+							<p>[bikeshopADDRESS-ID]</p>
+							<p><strong>[bikeshop-ID]Website: <a href= "http://ubikes.com">ubikes.com</a></strong></p>
+							<p><strong>[bikeshop-ID]Phone: (303) 444-4196</strong></p>
+							<!-- Collapsable Hours Info -->
+								      <h5 class="mb-0">
+								        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								         View Hours of Operation 
+								         </a>
+								      </h5>
+								      <br>				
+							    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+							        <table class="hours table">
+							           <tbody>
+							            <tr>
+							              <td> Sunday </td> <td> 12-5</td>
+							            </tr>
+							            <tr>
+							              <td> Monday </td> <td> 10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Tuesday </td> <td> 10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Wednesday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Thursday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Friday </td> <td>  10-7</td>
+							            </tr>
+							            <tr>
+							              <td> Saturday </td> <td>  10-7</td>
+							            </tr>
+							          </tbody>
+							        </table>
+							     </div>
+							<!-- End of Collapsable Hours Info -->			
+					</article>
+					<!-- End of One Result -->
+					<!-- Box Holding Submit Button -->
+					<div class = "button-box margin-right"> 
+					<input type="button" onclick="location.href='contact_page.html';" class="btn btn-primary" value = "Contact My Choices"/>
+					</form>
+					</div>
+					<!-- End of Box Holding Submit Button -->
+			</div>
+		</row>
+		<!-- End of Results Box-->
+
+	</div> <!-- Fluid Container -->
+
+ 	<!-- Sticky Footer -->
+ 	<footer class="footer"> 
+ 		<div class="text-muted small">
+	 		<ul class = "footnav"> 
+				<li class="first-li"> © BikeFinder, Inc.</li>
+				<li><a href = "terms.html" > Terms & Privacy </a></li>
+				<li>Facebook</li>
+				<li>Twitter</li>
+				<li class ="last-li">Instagram</li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
